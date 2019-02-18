@@ -30,6 +30,7 @@ public class TC_001_SmokeTest {
 	{
 		String url=driver.getCurrentUrl();
 		System.out.println("URL is" +url);
+		Assert.assertEquals(url, "https://www.google.com/?gws_rd=ssl");
 		
 	}
 	
